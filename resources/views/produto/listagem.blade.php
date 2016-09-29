@@ -1,6 +1,12 @@
 @extends('layout.principal')
 
 @section('conteudo')
+		@if(old('nome'))
+		  <div class="alert alert-success">
+		    <strong>Sucesso!</strong> 
+		      O produto {{ old('nome') }} foi adicionado.
+		  </div>
+		@endif
 		@if(empty($produtos))
 
 		<div class="alert alert-danger">
