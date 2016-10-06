@@ -18,3 +18,8 @@ Route::get('/produtos/novo','ProdutoController@novo');
 Route::post('/produtos/adiciona','ProdutoController@adiciona');
 Route::get('/produtos/json','ProdutoController@produtoJSON');
 Route::get('/produtos/remove/{id}','ProdutoController@remove');
+
+Route::get('home','HomeController@index');
+
+Route::controllers(['auth'=>'Auth\AuthController','password'=>'Auth\PasswordController',
+	]);

@@ -9,6 +9,10 @@ use estoque\Http\Requests\ProdutosRequest;
 
 class ProdutoController extends Controller{
 
+	public function __construct(){
+		$this->middleware('auth', ['only' => ['adiciona','remove']]);
+	}
+
 	public function lista(){
 		
 		$produtos = Produto::all();
