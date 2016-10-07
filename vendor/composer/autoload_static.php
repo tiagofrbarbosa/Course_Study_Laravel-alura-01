@@ -245,10 +245,9 @@ class ComposerStaticInit1dd2fe765a5ca891c524138d10ce2ca4
     );
 
     public static $classMap = array (
+        'AdicionaRelacionamentoProdutoCategoria' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_232849_adiciona_relacionamento_produto_categoria.php',
         'AdicionaTamanhoNoProduto' => __DIR__ . '/../..' . '/database/migrations/2016_10_01_013209_adiciona_tamanho_no_produto.php',
-        'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
-        'CreateProdutosTable' => __DIR__ . '/../..' . '/database/migrations/2016_09_30_002325_create_produtos_table.php',
-        'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
+        'CreateCategoriasTable' => __DIR__ . '/../..' . '/database/migrations/2016_10_06_230442_create_categorias_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
